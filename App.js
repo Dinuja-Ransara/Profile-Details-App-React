@@ -1,4 +1,4 @@
-﻿import { useState } from "react";
+import { useState } from "react";
 import {
   Animated,
   SafeAreaView,
@@ -92,13 +92,13 @@ export default function App() {
 
         <View style={styles.divider} />
 
-        <InfoField label="Name" value="Diluka" />
+        <InfoField label="Name" value="Dinuja Ransara" />
 
         <View style={styles.field}>
           <Text style={styles.label}>Email</Text>
           <View style={styles.row}>
             <EmailIcon />
-            <Text style={[styles.value, { marginLeft: 8 }]}>diluka.w@nsbm.ac.lk</Text>
+            <Text style={[styles.value, { marginLeft: 8 }]}>dinujaransara0204@gmail.com</Text>
           </View>
         </View>
 
